@@ -6,6 +6,16 @@ Git hub URL:
 
 # 開発環境準備 手順
 - git clone
+- 仮想環境構築
+
+    ```
+    pipenv shell
+    ```
+- req.txt からインストール
+
+    ```
+    pipenv install -r req.txt
+    ```
 - migrate コマンド実行
 
     ```
